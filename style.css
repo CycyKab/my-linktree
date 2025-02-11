@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
-    color: #fff;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    color: #ffffff;
+    background: linear-gradient(-45deg, #a7884f, #775201, #ffdea0, #776d54e5);
     background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
     margin: 0;
@@ -26,20 +26,27 @@ body {
 
 .profile-container {
     position: relative;
-    margin-top: -105px;
+    margin-top: -155px;
     z-index: 2;
+    
+}
+.profile-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 5px;
 }
 
 .linktree {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 25px rgba(82, 56, 9, 0.3);
     margin: 0 auto;
-    border: 5px solid #fff;
+    border: 5px solid #ffffff;
 }
 
 .profile-name {
@@ -153,10 +160,11 @@ body {
 }
 .linktree-board {
     background: rgba(255, 255, 255, 0.15); /* Light board effect */
-    border: 3px solid rgba(255, 255, 255, 0.3); /* Soft white border */
+    border: 3px solid rgba(255, 226, 162, 0.3); /* Soft white border */
     border-radius: 15px; /* Rounded corners */
     padding: 20px;
     margin: 20px auto;
+    margin-top: -105px;
     max-width: 600px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px); /* Glassmorphism effect */
