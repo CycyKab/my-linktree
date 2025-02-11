@@ -13,81 +13,92 @@
 <body>
     <div class="background-banner" style="background-image: url('assets/banner1.jpg')"></div>
     <div class="linktree-board">
-    <div class="content-container">
-        <div class="profile-container">
-            <div class="text-center">
-                <div class="linktree" style="background-image: url('assets/emoji.JPEG')"></div>
-                <h2 style="color: #ffffff; padding-top: 20px;">I'm Synthia</h2>
-                <p class="profile-description" style="color: #ffffff; font-size: 1rem; padding-top: 10px;">Software Developer | Beautician</p> <!-- Added small text -->
+        <div class="content-container">
+            <div class="profile-container">
+                <div class="text-center">
+                    <div class="linktree" style="background-image: url('assets/emoji.JPEG')"></div>
+                    <h2 style="color: #ffffff; padding-top: 20px;">I'm Synthia</h2>
+                    <p class="profile-description" style="color: #ffffff; font-size: 1rem; padding-top: 10px;">
+                        Software Developer | Beautician
+                    </p>
+                </div>
             </div>
-        </div>
-
-        <div class="text-center">
-            <a href="#" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800; margin-bottom: 30px;">
+    
+            <div class="text-center">
+                <!-- New Project Button -->
+                <button type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800; margin-bottom: 30px;" 
+                    onclick="copyToClipboard('https://your-link.com')">
                     <div class="btn-content">
                         <span class="btn-text">New Project</span>
-                        <i class="fas fa-copy btn-icon-right"></i>
                     </div>
                 </button>
-            </a>
-
-            <a href="https://www.instagram.com/cycy.kab_/" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
+    
+                <!-- Instagram Button -->
+                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;" 
+                    onclick="copyToClipboard('https://www.instagram.com/cycy.kab_/')">
                     <div class="btn-content">
                         <img src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000" alt="Instagram" class="btn-icon-left">
                         <span class="btn-text">Instagram</span>
                         <i class="fas fa-copy btn-icon-right"></i>
                     </div>
                 </button>
-            </a>
-
-            <a href="#" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
+    
+                <!-- Pinterest Button -->
+                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;" 
+                    onclick="copyToClipboard('#')">
                     <div class="btn-content">
                         <img src="https://img.icons8.com/?size=100&id=3V9cq2rzTnKG&format=png&color=000000" alt="Pinterest" class="btn-icon-left">
                         <span class="btn-text">Pinterest</span>
                         <i class="fas fa-copy btn-icon-right"></i>
                     </div>
                 </button>
-            </a>
-
-            <a href="#" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
+    
+                <!-- YouTube Button -->
+                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;" 
+                    onclick="copyToClipboard('#')">
                     <div class="btn-content">
                         <img src="https://img.icons8.com/?size=100&id=CFgF77P6Dw9p&format=png&color=000000" alt="YouTube" class="btn-icon-left">
-                        <span class="btn-text">My YouTube Channel</span>
+                        <span class="btn-text">YouTube</span>
                         <i class="fas fa-copy btn-icon-right"></i>
                     </div>
                 </button>
-            </a>
-
-            <a href="http://linkedin.com/in/synthia-kabwe-6557b021b" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
+    
+                <!-- LinkedIn Button -->
+                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;" 
+                    onclick="copyToClipboard('http://linkedin.com/in/synthia-kabwe-6557b021b')">
                     <div class="btn-content">
                         <img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="LinkedIn" class="btn-icon-left">
-                        <span class="btn-text">Connect On LinkedIn</span>
+                        <span class="btn-text">LinkedIn</span>
                         <i class="fas fa-copy btn-icon-right"></i>
                     </div>
                 </button>
-            </a>
-
-            <a href="#" target="_blank" style="text-decoration: none;">
-                <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
-                    <div class="btn-content">
-                        <img src="assets/logo.png" alt="Website" class="btn-icon-left">
-                        <span class="btn-text">My Personal Website.</span>
-                        <i class="fas fa-copy btn-icon-right"></i>
-                    </div>
-                </button>
-            </a>
+                </a>
+    
+                <a href="#" target="_blank" style="text-decoration: none;">
+                    <button type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600; margin-bottom: 30px;">
+                        <div class="btn-content">
+                            <img src="assets/logo.png" alt="Website" class="btn-icon-left">
+                            <span class="btn-text">Personal Website.</span>
+                        </div>
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-
-    <div class="text-center">
-        <p>powered by Synthia</p>
-    </div>
+    
+    <script>
+        function copyToClipboard(link) {
+            var tempInput = document.createElement("input");
+            tempInput.value = link;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999); 
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            alert("Link copied: " + link);
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
